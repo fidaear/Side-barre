@@ -1,0 +1,38 @@
+*{
+    margin:0px ;
+}
+.containner{
+    width: 120px;
+    height: 100vh;
+    background-color: red;
+    padding: 8px 12px ;
+    
+}
+.containner p{
+    color: blanchedalmond;
+    padding: 8px 12px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.containner p:hover{
+    background-color: black;
+    font-size: larger;
+    cursor: pointer;
+}
+button{
+    border: none;
+    border-radius: 10px;
+    color: wheat;
+    background-color: red;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color: beige;
+}
+#cls{
+    position: absolute;
+    left: 148px;
+}
+.hide{
+    display: none;
+}
